@@ -27,7 +27,8 @@ body {
     background: var(--bg-url) no-repeat top center/cover;
 }
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin: 0 auto;
     padding: 0 24px;
     margin-top: 56px;
@@ -40,6 +41,8 @@ body {
     display: block;
     width: 112px;
     margin: 0 auto;
+    border-radius: 50%;
+    contain: content;
 }
 #profile p {
     font-weight: 500px;
