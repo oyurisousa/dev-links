@@ -25,6 +25,7 @@
 }
 body {
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
 }
 #container {
     width: 100%;
@@ -132,4 +133,7 @@ footer p {
     justify-content: center;
     text-align: center;
     color: rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 700px){
+
 }
