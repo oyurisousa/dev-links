@@ -132,6 +132,7 @@ ul li a:hover {
     background-color: var(--highlight-color);
 }
 footer {
+  margin: 0 auto;
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
@@ -139,6 +140,9 @@ footer {
 
 /*medias queries*/
 @media (min-width: 700px){
+    body{
+        height: 100vh
+    };
     :root{
         --bg-url: url(./assets/bg-dsk-dark.jpg)
     }
